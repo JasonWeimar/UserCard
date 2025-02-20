@@ -15,8 +15,9 @@ body{
 
 .top{
     height:50px;
-    background-color: rgb(34, 116, 119);
+    background-color: rgb(72, 138, 169);
     padding: 20px;
+    border-bottom: solid 2px black;
 }
 
 .card_content{
@@ -30,6 +31,9 @@ body{
     height: 80px;
     position: relative;
     top: 25px;
+    border: solid 3px rgb(255, 176, 65);
+    border-radius: 50px;
+    box-shadow: 1px 1px 2px black;
 }
 
 .location{
@@ -50,5 +54,5 @@ body{
 }
 
 .gear{
-    height: 20px;
+    height: 15px;
 }
